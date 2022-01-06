@@ -3,17 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Roboto', sans-serif;
+}
+p, a, input, textarea{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.4em;
+}
+.wrapper{
+    width: 100%;
+}
 .container{
-    width: 1140px;
+    width: 1080px;
     margin: 0 auto;
-    height: 700px;
 }
 .banner-section{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 550px;
-    border-bottom: 1px solid red;
+    padding-bottom: 30px;
+    overflow: hidden;
 }
 .banner-content{
     width: 50%;
@@ -47,7 +57,7 @@
     line-height: 1.2;
 }
 .banner-content img{
-    width: 420px;
+    width: 400px;
     margin-top: -35px;
 }
 .adding-margin{
@@ -65,9 +75,182 @@
     color: #fff;
     border-radius: 3px;
     margin-bottom: 30px;
-    font-family: 'Montserrat', sans-serif;
 }
 .banner-content p{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.4em;
+    font-size: 18px;
+}
+
+/*Mission part start from here*/
+.mission{
+    padding-bottom: 50px;
+    overflow: hidden;
+}
+.mission h1{
+    text-align: center;
+    font-size: 40px;
+    color: #13103A;
+}
+.adding-colors{
+    color: #FFAD5A;
+}
+.mission-boxes{
+    display: flex;
+    margin-top: 50px;
+}
+.mission-boxes h3{
+    margin: 15px 0;
+    font-size: 23px;
+}
+.mission-boxes .single-box1{
+    width: 32%;
+    background-color: #EDF5F6;
+    margin-right: 2%;
+    padding: 25px;
+    border-radius: 10%;
+}
+
+.mission-boxes .single-box2{
+    width: 32%;
+    background-color: #FFEEEE;
+    padding: 25px;
+    border-radius: 10%;
+}
+.mission-boxes p{
+    color: #464646;
+}
+
+.mission-boxes .single-box3{
+    width: 32%;
+    background-color: #FFF4D6;
+    margin-left: 2%;
+    padding: 25px;
+    border-radius: 10%;
+}
+.img-width{
+    width: 130px;
+    margin-left: -10px;
+}
+
+/*Develop section start from here*/
+.develop{
+    display: flex;
+    padding: 50px 0;
+    justify-content: center;
+    align-items: center;
+}
+.develop h1{
+    font-size: 40px;
+    color: #333333;
+}
+.develop p{
+    font-size: 18px;
+    line-height: 1.5em;
+    margin: 20px 0;
+}
+.develop .image-side{
+    width: 35%;    
+    margin-right: 5%;
+    position: relative;
+}
+.images-width{
+    width: 100%;
+}
+.develop .content-side{
+    width: 60%;
+}
+.content-side a{
+    display: inline-block;
+    background-color: #FF5959;
+    padding: 10px 25px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 3px;
+}
+.using-padding{
+    padding-right: 50px;
+}
+.set-shape{
+    width: 180px;
+    position: absolute;
+    top: 25%;
+    left: -20%;
+    z-index: -1;
+}
+.maintain-shape{
+    position: relative;
+}
+.set-shape2{
+    position: absolute;
+    width: 180px;
+    bottom: -20%;
+    right: -20%;
+    z-index: -1;
+}
+/*Contact section css start from here*/
+.contact-part{
+    padding-top: 70px;
+    padding-bottom: 40px;
+    overflow: hidden;
+}
+.contact-part h1{
+    font-size: 40px;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.form-section input{
+    display: block;
+    margin: 15px auto;
+    width: 500px;
+    height: 35px;
+    padding: 5px;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    color: #333333;
+}
+.form-section input:focus{
+    border: 2px solid #FF5959;
+}
+.form-section textarea{
+    margin: 0 auto;
+    display: block;
+    width: 500px;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    padding: 5px;
+    color: #333333
+}
+.form-section textarea:focus{
+    border: 2px solid #FF5959;
+}
+.form-section button{
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+    background-color: #FF5959;
+    padding: 10px 25px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/*Footer section css start from here*/
+.footer-section{
+    padding: 50px 0;
+    background: #0B0D17;
+}
+.footer-section h1{
+    color: #fff;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.adding-colors-pink{
+    color: #FF5959;
+}
+.footer-section p{
+    color: #7595AE;
+    text-align: center;
 }
